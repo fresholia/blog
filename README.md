@@ -15,3 +15,6 @@ module.exports = {
     'mediumUsername': '' // for medium API
 }
 ```
+
+#### thanks
+Thanks https://github.com/david-fernando/medium-posts-api for medium api
