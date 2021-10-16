@@ -30,6 +30,7 @@ function App(props) {
                     }}>
                     <Component {...pageProps} />
                 </PageScheme>
+                <Component {...pageProps} />
             </div>
         </React.Fragment>
     )
