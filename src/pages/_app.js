@@ -17,7 +17,7 @@ function App(props) {
                 <meta name="application-name" content="blog - enes akıllıok" />
                 
                 <title>Home - enesakilliok</title>
-                <meta name="title" content="Home - enesakilliok" />
+                <meta name="title" content="404 - enesakilliok" />
 
                 { pageProps.canonical ? <link rel="canonical" href={pageProps.canonical} /> : "" }
             </Head>

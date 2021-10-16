@@ -1,0 +1,22 @@
+div.blogWrapper {
+    a.card {
+        position: relative;
+        background: rgba(6, 19, 78, 0.5);
+        width: 450px;
+        height: 50px;
+        text-decoration: none;
+        box-sizing: border-box;
+        padding: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 15px;
+        opacity: .8;
+        transition: .2s opacity linear;
+        span {
+            color: rgb(55, 52, 211);
+        }
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

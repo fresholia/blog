@@ -9,7 +9,7 @@ export default function Contact() {
             <Head>
                 <title>iletişim - enes akıllıok</title>
             </Head>
-            <div className={Style.wrapper}>
+            <div className={Style.contactWrapper}>
                 <h2>Benimle bu sayfadan iletişime geçebilirsin.</h2>
                 <p>Gelin, birlikte yarınları inşaa edelim! Benimle WhatsApp veya mail yoluyla iletişime geçin, geleceği konuşalım.</p>
 
