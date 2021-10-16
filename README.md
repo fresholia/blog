@@ -16,5 +16,9 @@ module.exports = {
 }
 ```
 
+#### screenshot preview
+
+![Screenshot_3](https://user-images.githubusercontent.com/46111016/137596845-ba18c0be-5ab8-4c99-bb28-b711928c5fec.png)
+
 #### thanks
 Thanks https://github.com/david-fernando/medium-posts-api for medium api
