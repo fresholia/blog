@@ -1,0 +1,65 @@
+div.wrapper {
+    opacity: 1;
+    animation: fadein 1s;
+
+    @keyframes fadein {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    hr {
+        margin: 0;
+        padding: 0;
+        border: none;
+        width: 100%;
+        margin-top: 2rem;
+        height: 1px;
+        margin-bottom: .5rem;
+        box-sizing: border-box;
+        background: #212121;
+      }
+    h2 {
+        font-weight: normal;
+    }
+    h6 {
+        padding: 0;
+        margin: 0;
+        margin-top: 5px;
+        font-weight: 200;
+        color: #818181;
+    }
+    p {
+        padding-bottom: 1.5rem;
+    }
+    p.contactBar {
+        color: white;
+        font-weight: 500;
+        font-size: 1.2rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        span.contactSpan {
+            color: #818181;
+            font-weight: 200;
+        }
+    }
+
+    a.card {
+        position: relative;
+        background: rgba(6, 78, 59, .5);
+        width: 100%;
+        height: 35px;
+        text-decoration: none;
+        box-sizing: border-box;
+        padding: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 15px;
+        opacity: .8;
+        transition: .2s opacity linear;
+        span {
+            color: rgb(52, 211, 153);
+        }
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

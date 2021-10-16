@@ -1,7 +1,10 @@
 export default function Custom404() {
     return (
-        <h1>
-            
-        </h1>
+        <div>
+            <h1>
+                404
+            </h1>
+            <h5>Sayfa bulunamadı.</h5>
+        </div>
     )
 }
