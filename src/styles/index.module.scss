@@ -1,4 +1,21 @@
 div.wrapper {
+    hr {
+      margin: 0;
+      padding: 0;
+      border: none;
+      width: 100%;
+      height: 1px;
+      margin-bottom: .5rem;
+      box-sizing: border-box;
+      background: #212121;
+    }
+
+    h3 {
+      padding: 0;
+      margin: 0;
+      font-size: 1rem;
+      font-weight: normal;
+    }
     div.content {
       margin: 0 auto;
       max-width: 500px;
@@ -6,8 +23,10 @@ div.wrapper {
 
     div.langs {
       position: relative;
-      width: 100%;
-      height: 60px;
+      width: 600px;
+      padding-top: 1rem;
+      margin: 0 auto;
+      height: auto;
       display: flex;
       justify-content: center;
       align-items: center;

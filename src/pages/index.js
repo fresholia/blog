@@ -19,6 +19,9 @@ export default function Home() {
           <p>{about}</p>
         </div>
 
+        <hr />
+        
+        <h3>Bildiğim Yazılım Dilleri ve Alanlar</h3>
         <div className={Style.langs}>
           {
             Object.keys(langs).map( (data) => {
