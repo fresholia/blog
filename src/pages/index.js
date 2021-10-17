@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import Style from 'styles/index.module.scss'
 
-import { indexHeader, about, langs } from 'exports/PageContents'
+import { indexHeader, about, langs } from './exports/PageContents'
 
 export default function Home() {
   return (

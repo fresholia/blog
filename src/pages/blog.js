@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import Style from 'styles/blog.module.scss'
 
-import { mediumUsername } from 'exports/pageContents'
+import { mediumUsername } from 'exports/PageContents'
 
 export default function Blog({data}) {
     return (
