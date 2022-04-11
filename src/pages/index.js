@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className={Style.wrapper}>
         <h2>{indexHeader}</h2>
-        <h4>Yazılımla ilgilenmiyorsan yanlış sayfadasın.</h4>
+        <h4>front-end developer</h4>
         <div className={Style.content}>
           <p>{about}</p>
         </div>
